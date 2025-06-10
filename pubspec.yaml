@@ -1,0 +1,72 @@
+name: geek_arise
+description: Aplicativo Geek Arise - Os melhores produtos do mundo anime
+
+# A versão do seu aplicativo (siga versionamento semântico)
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+# --- DEPENDÊNCIAS DO PROJETO ---
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Pacotes de terceiros
+  cupertino_icons: ^1.0.6 
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.2.6
+  firebase_core: ^3.13.1
+  cloud_firestore: ^5.6.8
+  firebase_auth: ^5.5.4
+  google_fonts: ^6.2.1 # <-- MOVIDO PARA CÁ
+  mask_text_input_formatter: ^2.9.0
+  intl: ^0.19.0
+
+# --- DEPENDÊNCIAS DE DESENVOLVIMENTO ---
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# --- CONFIGURAÇÕES ESPECÍFICAS DO FLUTTER ---
+flutter:
+  uses-material-design: true
+  
+  # Para incluir assets no seu aplicativo, adicione uma seção de assets como esta:
+  assets:
+    - assets/images/animacao.gif
+    - assets/images/Logo_Geek_Arise.png
+    - assets/images/jjk.png
+    - assets/images/hunter.png
+    - assets/images/slime.png
+    - assets/images/Frame 5.png
+    - assets/images/animefundo.jpg
+    - assets/images/roupasexclusivas.jpg
+    - assets/images/lancamentoManga.webp
+    - assets/images/actionfigure.jpg
+    - assets/images/ofertasEspeciais.jpg
+    - assets/images/emAlta2.webp
+    - assets/images/emAlta3.jpg
+    - assets/images/20%off.jpg
+    - assets/images/20%off2.jpg
+    - assets/images/emAlta4.jpg
+    - assets/images/emAlta1.jpg
+    - assets/images/emalta5.png
+    - assets/images/emAlta7.jpg
+    - assets/images/emAlta8.png
+    - assets/images/nogame.webp
+    - assets/images/eventos.webp
+    - assets/images/actionfigures.jpg
+    - assets/images/explorarProdutos.jpg
+    - assets/images/products/ 
+    # Garante que todos os arquivos nesta pasta sejam incluídos
+
+  # Exemplo de como adicionar fontes customizadas:
+  # fonts:
+  #   - family: Montserrat
+  #     fonts:
+  #       - asset: fonts/Montserrat-Regular.ttf
+  #       - asset: fonts/Montserrat-Bold.ttf
+  #         weight: 700
